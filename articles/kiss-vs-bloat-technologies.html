@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UnderNothing</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <h1>UnderNothing</h1>
+                <div class="links">
+                    <a href="/">Home</a>
+                    <a href="/library">Library</a>
+                    <a href="/gallery.html">Gallery</a>
+                    <a href="https://git.undernothing.space">Git</a>
+                    <a href="https://translate.undernothing.space">Translate</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-content">
+                <h2>KISS vs Bloat technologies</h2>
+                <h3>Bloat technologies</h3>
+                <h4>Nodejs</h4>
+                <ul>
+                    <li><b>Performance requirements</b>: Node.js is known for its ability to handle high levels of concurrent requests. However, it may not be the best choice for computationally intensive tasks, such as heavy data processing or machine learning algorithms. In such cases, a language like Python or Java, which are optimized for such tasks, might be a more suitable option.</li>
+                    <br>
+                    <li><b>Security</b>: Nodejs modules always have problems with security or performance which break web application.</li>
+                    <br>
+                </ul>
+                <h4>Docker</h4>
+                <ul>
+                    <li><b>Complexity</b>: Docker can bring added complexity to the server setup. Managing containers, images, and networks can be an overhead for certain environments or specific use cases.</li>
+                    <br>
+                    <li><b>Resource overhead</b>: Docker adds an extra layer of abstraction, which can introduce resource overhead. Containers require a certain amount of system resources like CPU, memory, and disk space, which might not be optimal for all server configurations.</li>
+                    <br>
+                    <li><b>Compatibility concerns</b>: Not all applications or software might be compatible with Docker. Certain legacy or specialized software may require direct access to hardware or specific configurations that might not be supported in a containerized environment.</li>
+                    <br>
+                    <li><b>Deployment simplicity</b>: In some cases, the deployment process might be simpler without Docker. Depending on the infrastructure and scale of the project, running applications directly on the server might be more straightforward and efficient.</li>
+                    <br>
+                    <li><b>Performance considerations</b>: For extremely performance-sensitive applications, Docker might introduce slight performance degradation due to the overhead of containerization. Direct server deployments can sometimes offer better performance by eliminating this layer of abstraction.</li>
+                </ul>
+            </div>
+        </main>
+    </body>
+</html>
